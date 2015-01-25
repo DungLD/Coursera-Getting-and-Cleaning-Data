@@ -10,7 +10,7 @@ Levels of Varible Activity come from “activity_labels.txt”
 
 So we will use activity, subject and features as part of descriptive variable names for data in data frame.
 
- #1. create one dataset 
+#1. create one dataset 
     # read data and merge train and test data
     dataPath =  "UCI HAR Dataset/"  
     activityTrain <- read.table(file.path(dataPath, "train", "Y_train.txt"), header = F)
